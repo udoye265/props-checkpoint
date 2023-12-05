@@ -1,0 +1,61 @@
+/* src/styles.css */
+body{
+    margin: 0;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    /*background-color: #f0f0f0;*/
+  }
+  
+  .App {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  .PlayerCard {
+    width: 18rem;
+    margin: 10px;
+    color: yellow;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .PlayerCard img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .PlayerCardBody {
+    padding: 15px;
+  }
+  
+  .PlayerTitle {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .PlayerText {
+    font-size: 0.9em;
+    color: #555;
+  }
+  
+  .PlayersList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+.PlayerImage {
+    width: 100%;
+    height: 200px; 
+    object-fit: cover;
+  }
